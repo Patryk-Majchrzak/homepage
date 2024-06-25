@@ -7,6 +7,7 @@
         const photoMain = document.querySelector(".js-photoMain");
         const photoAngel = document.querySelector(".js-photoAngel");
         const photoFlowers = document.querySelector(".js-photoFlowers");
+        const hidden = "head__photo--hidden";
 
         if (photoAngel.classList.contains(hidden) && photoFlowers.classList.contains(hidden)) {
             photoMain.classList.toggle(hidden);
@@ -32,7 +33,6 @@
 
     const imageButton = document.querySelector(".js-imageButton");
     const backgroundButton = document.querySelector(".js-backgroundButton");
-    const hidden = "head__photo--hidden";
 
     imageButton.addEventListener("click", changePhoto());
 
