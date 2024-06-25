@@ -1,14 +1,14 @@
 {
     console.log("Hello there!");
 
-    let photoMain = document.querySelector(".js-photoMain");
-    let photoAngel = document.querySelector(".js-photoAngel");
-    let photoFlowers = document.querySelector(".js-photoFlowers");
-    let imageButton = document.querySelector(".js-imageButton");
-    let backgroundButton = document.querySelector(".js-backgroundButton");
-    let background = document.querySelector(".js-document");
-    let shadeName = document.querySelector(".js-shadeName");
-    let hidden = "head__photo--hidden";
+    const photoMain = document.querySelector(".js-photoMain");
+    const photoAngel = document.querySelector(".js-photoAngel");
+    const photoFlowers = document.querySelector(".js-photoFlowers");
+    const imageButton = document.querySelector(".js-imageButton");
+    const backgroundButton = document.querySelector(".js-backgroundButton");
+    const background = document.querySelector(".js-document");
+    const shadeName = document.querySelector(".js-shadeName");
+    const hidden = "head__photo--hidden";
 
     imageButton.addEventListener("click", () => {
         if (photoAngel.classList.contains(hidden) && photoFlowers.classList.contains(hidden)) {
