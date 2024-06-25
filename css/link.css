@@ -13,6 +13,18 @@
     color:hsl(184, 83%, 30%);
 }
 
+.navigation .link{
+    color:hsl(0, 25%, 85%);
+}
+
+.navigation .link:hover{
+    color:hsl(0, 25%, 75%);
+}
+
+.navigation .link:active{
+    color:hsl(0, 81%, 42%);
+}
+
 .link--CV{
     background-color: hsl(180, 100%, 25%);
     color: rgb(253, 247, 247);
