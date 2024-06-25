@@ -30,11 +30,11 @@
         background.classList.toggle("document--lightColor");
         shadeName.innerText = background.classList.contains("document--lightColor") ? "ciemne" : "jasne"
     };
-
+    
     const imageButton = document.querySelector(".js-imageButton");
     const backgroundButton = document.querySelector(".js-backgroundButton");
 
-    imageButton.addEventListener("click", changePhoto());
+    imageButton.addEventListener("click", changePhoto);
 
-    backgroundButton.addEventListener("click", changeBackground());
+    backgroundButton.addEventListener("click", changeBackground);
 };
