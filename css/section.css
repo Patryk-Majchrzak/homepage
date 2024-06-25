@@ -48,3 +48,7 @@
 .section__paragraph--contact{
     padding-bottom:0;
 }
+
+.section__socialMediaIcon{
+    margin: 10px 20px 20px 0;
+}
