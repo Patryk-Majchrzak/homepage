@@ -20,18 +20,21 @@
             photoFlowers.classList.toggle(hidden);
             photoMain.classList.toggle(hidden);
         };
-    }
+    };
+
+    const changeBackground = () => {
+        const background = document.querySelector(".js-document");
+        const shadeName = document.querySelector(".js-shadeName");
+
+        background.classList.toggle("document--lightColor");
+        shadeName.innerText = background.classList.contains("document--lightColor") ? "ciemne" : "jasne"
+    };
 
     const imageButton = document.querySelector(".js-imageButton");
     const backgroundButton = document.querySelector(".js-backgroundButton");
-    const background = document.querySelector(".js-document");
-    const shadeName = document.querySelector(".js-shadeName");
     const hidden = "head__photo--hidden";
 
     imageButton.addEventListener("click", changePhoto());
 
-    backgroundButton.addEventListener("click", () => {
-        background.classList.toggle("document--lightColor");
-        shadeName.innerText = background.classList.contains("document--lightColor") ? "ciemne" : "jasne"
-    });
+    backgroundButton.addEventListener("click", changeBackground());
 };
