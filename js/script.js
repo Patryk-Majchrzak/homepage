@@ -1,7 +1,5 @@
 {
     const welcome = () => console.log("Hello there!");
-
-    welcome ();
     
     const changePhoto = () => {
         const photoMain = document.querySelector(".js-photoMain");
@@ -40,6 +38,11 @@
         backgroundButton.addEventListener("click", changeBackground);
     };
 
-    listenEvents();
+    const init = () => {
+        welcome ();
+        listenEvents();
+    };
 
+    init();
+    
 };
