@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/link.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title class="js-title">Patryk Majchrzak - pierwsza strona</title>
+</head>
+
+<body class="document js-document">
+        <div class="container">
+            <header class="head">
+                <h1 class="header">Patryk Majchrzak</h1>
+                <img src="https://imagetolink.com/ib/RuTW0D7m5l.jpg" alt="zdjęcie autora"
+                    class="head__photo js-photoMain">
+                <img src="https://imagetolink.com/ib/pMjrd6mQwE.jpg" alt="zdjęcie autora"
+                    class="head__photo js-photoAngel head__photo--hidden">
+                <img src="https://imagetolink.com/ib/fkibMSVyDd.jpg" alt="zdjęcie autora"
+                    class="head__photo js-photoFlowers head__photo--hidden">
+                <p class="section__paragraph">
+                    <button class="head__button js-imageButton">zmień zdjęcie</button>
+                    <button class="head__button js-backgroundButton">zmień tło na <span
+                            class="js-shadeName">jasne</span></button>
+                </p>
+            </header>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__listItem"><a href="#o-mnie" class="link">O mnie</a></li>
+                    <li class="navigation__listItem"><a href="#moje-pasje" class="link">Moje pasje</a></li>
+                    <li class="navigation__listItem"><a href="#ulubione-utwory" class="link">Ulubione utwory</a></li>
+                    <li class="navigation__listItem"><a href="#doświadczenie-zawodowe" class="link">Doświadczenie
+                            zawodowe</a></li>
+                    <li class="navigation__listItem"><a href="#zwierzęta-domowe" class="link">Zwierzęta domowe</a></li>
+                    <li class="navigation__listItem"><a href="#kontakt" class="link">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <section class="section" id="o-mnie">
+                    <h2 class="header">O mnie</h2>
+                    <p class="section__paragraph section__paragraph--centered section__paragraph--bold">
+                        Cześć! 🖐️
+                    </p>
+                    <p class="section__paragraph">Nazywam się <strong>Patryk Majchrzak</strong> i mam 29 lat. Przez około 6 lat
+                        pracowałem
+                        w
+                        <em>Infosysie</em> jako księgowy dla zagranicznych klientów (głównie dla filii angielskich,
+                        irlandzkich
+                        oraz
+                        kanadyjskich).
+                    </p>
+                    <p class="section__paragraph section__paragraph--last">
+                        Postanowiłem spróbować swoich sił jako front-end developer, a w przyszłości być może
+                        full-stack
+                    </p>
+                </section>
+
+                <section class="section" id="moje-pasje">
+                    <h2 class="header">Moje pasje</h2>
+                    <p class="section__paragraph">
+                        W wolnych chwilach lubię rozwiązywać kakuro (krzyżówki liczbowe), słuchać muzyki (głównie
+                        <i>electro
+                            swingu</i>, aczkolwiek lubię też <i>pop</i> oraz <i>rock</i>). Moją ulubioną grupą jest
+                        <em>Caravan
+                            Palace</em>, zaś ich ulubioną płytą <em>Chronologic</em> z roku 2019.
+                    </p>
+                    <p class="section__paragraph">
+                        Poza tym lubię grać w gry wideo oraz
+                        oglądać seriale na Netflixie oraz Disney+.
+                    </p>
+                    <p class="section__paragraph section__paragraph--last">
+                        Ponadto prowadzę kampanię <I>Dungeons & Dragons</I> ⚔️🐉 dla sześciu osób w stworzonym
+                        przeze mnie świecie (nie znam prawie w ogóle tzw. <i>lore</i> związanego z D&D, aczkolwiek
+                        podoba mi
+                        się
+                        mechanika, więc postanowiłem spróbować wymyślić coś własnego używając tych mechanik).
+                    </p>
+                </section>
+
+                <section class="section" id="ulubione-utwory">
+                    <h2 class="header">Ulubione utwory</h2>
+                    <div class="section__tableContainer">
+                        <p class="section__paragraph">
+                            Kliknij w ikonę Youtube w kolumnie link, aby odsłuchać utwór na YouTubie (link
+                            otwiera się w nowej
+                            karcie)
+                        </p>
+                        <table class="table">
+                            <caption class="table__caption">Moje ulubione utwory</caption>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                                <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                                <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                                <th class="table__cell table__cell--header" scope="col">Link</th>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" lang="en">Fear and Delight</th>
+                                <td class="table__cell" lang="en">The correspondents</td>
+                                <td class="table__cell">2014</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=ABS-mlep5rY" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" lang="en">Bella Belle</th>
+                                <td class="table__cell" lang="en">Electric Swing Circus</td>
+                                <td class="table__cell">2014</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=wZZ8V2AFUq0" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Dzieci</th>
+                                <td class="table__cell">Elektryczne gitary</td>
+                                <td class="table__cell">1993</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=q4EM1jSg92k" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Horyzont</th>
+                                <td class="table__cell">Spirit of Lodz</td>
+                                <td class="table__cell">2020</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=lE1qMxoVAiA" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Posin</th>
+                                <td class="table__cell" lang="en">Peggy Suave</td>
+                                <td class="table__cell">2015</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=TtXMeMR81q4" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" lang="en">Lone Digger</th>
+                                <td class="table__cell" lang="en" rowspan="2">Caravan Palace</td>
+                                <td class="table__cell">2015</td>
+                                <td class="table__cell">
+                                    <a href="https://www.youtube.com/watch?v=UbQgXeY_zi4" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" lang="en">Miracle</th>
+                                <td class="table__cell table__cell--forRowWithRowspan">2019</td>
+                                <td class="table__cell table__cell--forRowWithRowspan">
+                                    <a href="https://www.youtube.com/watch?v=XRP9k9nlAfE" target="_blank"
+                                        rel="norefferer noopener" title="link do utworu na Youtubie">
+                                        <img src="https://imagetolink.com/ib/DMjvTgrpFv.png" alt="ikona YouTube"
+                                            class="table__youtubeImage">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+
+
+                <section class="section" id="doświadczenie-zawodowe">
+                    <h2 class="header">Doświadczenie zawodowe</h2>
+                    <ol class="section__list" type="I">
+                        <li class="section__listItem">
+                            09.2012-09.2012 - "Mazowiecka spółka Gazownictwa PGNiG"<br>
+                            pomoc w dziale księgowości
+                        </li>
+                        <li class="section__listItem">
+                            04.2013-05.2013 - "Mazowiecka spółka Gazownictwa PGNiG"<br>
+                            pomoc w dziale księgowości
+                        </li>
+                        <li class="section__listItem">
+                            04.2017-09.2019 "Infosys Łódź"<br>
+                            starszy księgowy
+                        </li>
+                        <li class="section__listItem">
+                            09.2019-09.2020 - "Infosys Łódź"<br>
+                            księgowy specjalista
+                        </li>
+                        <li class="section__listItem--last">
+                            09.2020-12.2023- "Infosys Łódź"<br>
+                            lider procesu
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="section section--centered" id="zwierzęta-domowe">
+                    <h2 class="header">Zwierzęta domowe</h2>
+                    <p class="section__paragraph">
+                        Aktualnie maieszkam z kotką <b>"Kati"</b>
+                    </p>
+                    <p class="section__paragraph section__paragraph--last">
+                        <img src="https://imagetolink.com/ib/COoXLYA3Vm.png" width="150" alt="zdjęcie kotki">
+                    </p>
+                </section>
+
+                <section class="section section--centered" id="kontakt">
+                    <h2 class="header">Kontakt</h2>
+                    <p class="section__paragraph section__paragraph--contact">
+                        tel: <a href="tel:+48510115109" class="link">+48 510-115-109</A>
+                    </p>
+                    <p class="section__paragraph section__paragraph--contact">
+                        mail: <a href="mailto:pmaj12345@gmail.com" class="link">pmaj12345@gmail.com</a>
+                    </p>
+                    <p class="section__paragraph section__paragraph--last">
+                        <a href="CV__Patryk__Majchrzak__PL.pdf" download="CV__Patryk__Majchrzak" class="link link--CV">
+                            Pobierz CV (PL)
+                        </a>
+                        <a href="CV__Patryk__Majchrzak__PL.pdf" download="CV__Patryk__Majchrzak" class="link link--CV">
+                            Pobierz CV (EN)
+                        </a>
+                    </p>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            Stworzone przez Patryka Majchrzaka 2024 &#169;
+        </footer>
+
+</body>
+
+</html>

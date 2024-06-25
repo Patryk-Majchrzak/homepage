@@ -1,0 +1,32 @@
+.link{
+    text-decoration: none;
+    color:hsl(198, 46%, 70%);
+}
+
+.link:hover{
+    color: hsl(185, 44%, 49%);
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.link:active{
+    color:hsl(184, 83%, 30%);
+}
+
+.link--CV{
+    background-color: hsl(180, 100%, 25%);
+    color: rgb(253, 247, 247);
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    margin-right:10px;
+}
+
+.link--CV:hover{
+    background-color: hsl(180, 100%, 15%);
+ }
+ 
+ .link--CV:active{
+     color:rgb(249, 170, 170)
+ }

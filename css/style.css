@@ -1,0 +1,17 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.document{
+    background-color: rgb(36, 1, 48);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.document--lightColor{
+    background-color: rgb(31, 8, 68);
+}

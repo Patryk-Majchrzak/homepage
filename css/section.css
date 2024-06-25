@@ -1,0 +1,50 @@
+.section{
+    background-color: rgb(6, 0, 40);
+    line-height: 1.5;
+    border-radius: 10%;
+    margin-top: 0px;
+    box-shadow: 3px 3px 7px 3px #ccc7c7,
+    3px 5px 6px 1px #B2B5A8; 
+    margin-bottom: 50px;
+}
+
+.section--centered{
+    text-align: center;
+}
+
+.section__list {
+    margin-top: 20px;
+}
+
+.section__listItem{
+    margin-bottom: 30px;
+}
+
+.section__listItem--last{
+    padding-bottom: 20px;
+}
+
+.section__tableContainer{
+    overflow-x: auto;
+}
+
+.section__paragraph{
+    padding: 0px 20px 10px;
+    margin-top: 0;
+}
+
+.section__paragraph--centered{
+  text-align: center;
+}
+
+.section__paragraph--bold{
+    font-weight: bold;
+}
+
+.section__paragraph--last{
+    padding-bottom: 20px;
+}
+
+.section__paragraph--contact{
+    padding-bottom:0;
+}

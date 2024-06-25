@@ -1,0 +1,42 @@
+.table{
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table__caption{
+    caption-side: bottom;
+    padding:15px;
+}
+
+.table__cell{
+    border: 0.5px, solid, #b98b8b;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+    text-shadow: 5px 4px rgb(133, 9, 133);
+}
+
+.table__cell--header{
+    background-color: hsl(34, 82%, 20%);
+}
+
+.table__row{
+    background-color: hsl(34, 81%, 33%);
+}
+
+.table__row:nth-child(even){
+    background-color: hsl(34, 75%, 27%);
+}
+
+.table__cell:hover{
+    background-color: hsl(34, 62%, 52%);
+}
+
+.table__cell--forRowWithRowspan{
+    background-color: hsl(34, 81%, 33%);
+}
+
+.table__youtubeImage{
+    width: 50px;
+}

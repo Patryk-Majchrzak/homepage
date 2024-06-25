@@ -1,0 +1,24 @@
+.head{
+    text-align: center;
+}
+
+.head__photo{
+    border-radius: 50%;
+    max-width: 350px;
+    width:100%;
+}
+
+.head__photo--hidden{
+    display: none;
+}
+
+.head__button{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 5px 5px 10px -8px #ffffff;
+    font-family: "Montserrat", sans-serif;
+}

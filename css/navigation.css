@@ -1,0 +1,13 @@
+.navigation{
+    background-color: black;
+    padding:10px;
+}
+
+.navigation__list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.navigation__listItem{
+    margin: 5px 0;
+}
