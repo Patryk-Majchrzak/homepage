@@ -6,6 +6,9 @@
 .navigation__list{
     list-style-type: none;
     padding-left: 15px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 
 .navigation__listItem{
