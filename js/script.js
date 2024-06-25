@@ -1,6 +1,8 @@
 {
-    console.log("Hello there!");
+    const welcome = () => console.log("Hello there!");
 
+    welcome ();
+    
     const photoMain = document.querySelector(".js-photoMain");
     const photoAngel = document.querySelector(".js-photoAngel");
     const photoFlowers = document.querySelector(".js-photoFlowers");
@@ -29,4 +31,6 @@
         background.classList.toggle("document--lightColor");
         shadeName.innerText = background.classList.contains("document--lightColor") ? "ciemne" : "jasne"
     });
+
+    welcome()
 };
