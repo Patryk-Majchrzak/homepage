@@ -5,7 +5,7 @@ https://github.com/Patryk-Majchrzak/homepage.git
 
 ## Description
 
-Hi! Welcome to my homepage where I introduce myself and tell you some personal information about myslef and my personality. It is also my first website where I try some CSS stylingg and JavaScript interactions. Hope you'll enjoy it :) Below som information for users how to navigate through the website and information for developers about code itself. So, what are you waiting for? Click th link in the demo and try it out ;)
+Hi! Welcome to my homepage where I introduce myself and tell you some personal information about myslef and my personality. It is also my first website where I try some CSS stylingg and JavaScript interactions. Hope you'll enjoy it 😊 Below som information for users how to navigate through the website and information for developers about code itself. So, what are you waiting for? Click th link in the demo and try it out 😉
 
 ## Detsils for users 
 
