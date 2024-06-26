@@ -12,21 +12,21 @@ Hi! Welcome to my homepage where I introduce myself and tell you some personal i
 1. Website is available only in polish (I am about to add language selection in thee future, so it will be available in english as well)
 2. You can change photo displayed on the website by clicking on buttons labeled "kolejne zdjęcie" (next photo) and "poprzednie zdjęcie" (previous photo)
 
-(animation from screentogif)
+<img src="for_readme/photoAnimation.gif" width=500>
 
 3. You can change background by clicking button labeled "zmień tło na jasne" (change to bright background). It will also change label on the button to "zmień tło na ciemne" (change to dark background). Clicking the button again will change background to original one and button label will once again say "zmień tło na jasne" (change to bright background).
 
-(animation from screentogif)
+<img src="for_readme/animationBackground.gif" width=500>
 
 4. Below buttons section the is navigation with links which underline and change color after mouse hover and click. Clicking on any navigation link will show proper document section at the top of the screen
 
-(animation from screentogif)
+<img src="for_readme/animationNav.gif" width=500>
 
 5. Document has some extrnal links in YouTube icon or icons of social media pages. Links will open in a new tab.
 6. Links to my e-mail and phone number (tel in polish) will ask you to open default app for sending mails or making calls (if you have any on your computer). Clicking on "pobierz CV" will download my CV available in one of two available language options.
 7. If you would like to share link to the website on social media it will look like this
 
-(image for readme)
+<img src="for_readme/shareImg.png">
 
 ## Details for developers
 
