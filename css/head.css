@@ -5,6 +5,7 @@
 .head__photo{
     border-radius: 50%;
     max-width: 350px;
+    height: 320px;
     width:100%;
 }
 
