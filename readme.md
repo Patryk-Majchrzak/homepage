@@ -1,7 +1,7 @@
 # PERSONAL HOMEPAGE - my first website
 
 ## Demo
-https://github.com/Patryk-Majchrzak/homepage.git
+https://patryk-majchrzak.github.io/homepage/
 
 ## Description
 
