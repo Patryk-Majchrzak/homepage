@@ -23,11 +23,13 @@
     box-shadow: 5px 5px 10px -8px #ffffff;
     font-family: "Montserrat", sans-serif;
     width: 200px;
+    transition: 0.5s
 }
 
 .head__button:hover{
     cursor: pointer;
     background-color: hsl(271, 76%, 63%);
+    transform: scale(1.1);
 }
 
 .head__button:active{
