@@ -8,6 +8,10 @@
     margin-bottom: 50px;
 }
 
+.section--bright{
+    background-color: hsl(249, 100%, 12%);
+}
+
 .section--centered{
     text-align: center;
 }

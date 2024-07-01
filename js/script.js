@@ -47,8 +47,20 @@
 
         background.classList.toggle("document--lightColor");
         shadeName.innerText = background.classList.contains("document--lightColor") ? "ciemne" : "jasne"
+
+        changeSectionBackground();
     };
     
+    const changeSectionBackground = () => {
+        const sections = document.querySelectorAll(".js-section");
+        const navigation = document.querySelector('.js-navigation')
+
+        sections.forEach((section) => {
+            section.classList.toggle("section--bright");
+        });
+        navigation.classList.toggle("navigation--bright");
+    };
+
     const listenEvents = () => {
         const nextImageButton = document.querySelector(".js-nextImageButton");
         const previousImageButton = document.querySelector(".js-previousImageButton");

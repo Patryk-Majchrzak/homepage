@@ -3,6 +3,10 @@
     padding:10px;
 }
 
+.navigation--bright{
+    background-color: hsl(232, 92%, 7%)
+}
+
 .navigation__list{
     list-style-type: none;
     padding-left: 15px;
