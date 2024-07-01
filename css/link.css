@@ -35,6 +35,7 @@
     display: inline-block;
     margin-right:10px;
     width:200px;
+    transition: 0.5s;
 }
 
 @media(max-width:520px){
