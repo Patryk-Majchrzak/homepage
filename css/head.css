@@ -18,9 +18,18 @@
     margin-right: 10px;
     border-radius: 10px;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: hsl(271, 76%, 53%);
     color: white;
     box-shadow: 5px 5px 10px -8px #ffffff;
     font-family: "Montserrat", sans-serif;
     width: 200px;
+}
+
+.head__button:hover{
+    cursor: pointer;
+    background-color: hsl(271, 76%, 63%);
+}
+
+.head__button:active{
+    background-color: hsl(271, 76%, 68%);
 }
