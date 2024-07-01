@@ -11,6 +11,25 @@
     flex-wrap:wrap;
 }
 
+@media(max-width: 992px){
+    .navigation__list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media(max-width: 576px){
+    .navigation__list{
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width: 350px){
+    .navigation__list{
+        grid-template-columns: 1fr
+    }
+}
+
 .navigation__listItem{
     margin: 5px 10px;
 }
