@@ -9,7 +9,10 @@ Hi! Welcome to my homepage where I introduce myself and tell you some personal i
 
 ## Detsils for users 
 
-1. Website is available only in polish (I am about to add language selection in thee future, so it will be available in english as well)
+1. You can change the language on the website by clicking on the flag icon. Default homepage language is polish, however once you click on the flag, you can see the website in english. Flag will change to polish. If you click it again, website will return to default setting
+
+<img src="for_readme/languageChange.gif">
+
 2. You can change photo displayed on the website by clicking on buttons labeled "kolejne zdjęcie" (next photo) and "poprzednie zdjęcie" (previous photo)
 
 <img src="for_readme/photoAnimation.gif" width=500>
