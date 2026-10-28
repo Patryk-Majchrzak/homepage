@@ -1,6 +1,17 @@
 {
     const welcome = () => console.log("Hello there!");
     
+
+    const languageChange = () => {
+    const bodyElement = document.querySelector(".js-document");
+    const plFlag = document.querySelector(".js-flagPL");
+    const ukFlag = document.querySelector(".js-flagUK");
+
+            bodyElement.classList.toggle("body--lang-en");
+            plFlag.classList.toggle("language-dropdown__flag--hidden");
+            ukFlag.classList.toggle("language-dropdown__flag--hidden");
+    };
+
     const showNextPhoto = () => {
         const photoMain = document.querySelector(".js-photoMain");
         const photoAngel = document.querySelector(".js-photoAngel");
@@ -65,12 +76,17 @@
         const nextImageButton = document.querySelector(".js-nextImageButton");
         const previousImageButton = document.querySelector(".js-previousImageButton");
         const backgroundButton = document.querySelector(".js-backgroundButton");
-    
+        const plFlag = document.querySelector(".js-flagPL");
+        const ukFlag = document.querySelector(".js-flagUK");
+
         nextImageButton.addEventListener("click", showNextPhoto);
 
         previousImageButton.addEventListener("click", showPreviousPhoto);
 
         backgroundButton.addEventListener("click", changeBackground);
+
+        plFlag.addEventListener("click", languageChange);
+        ukFlag.addEventListener("click", languageChange);
     };
 
     const init = () => {
