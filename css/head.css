@@ -22,7 +22,7 @@
     color: white;
     box-shadow: 5px 5px 10px -8px #ffffff;
     font-family: "Montserrat", sans-serif;
-    width: 200px;
+    min-width: 200px;
     transition: background 0.5s, transform 0.5s;
 }
 
