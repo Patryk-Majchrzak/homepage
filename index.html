@@ -13,6 +13,7 @@
     <link href="css/section.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/language.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
@@ -29,6 +30,14 @@
 <body class="document js-document">
         <div class="container">
             <header class="head">
+                <ul class="language-dropdown js-languageDropdown">
+                        <li class="language-dropdown__option" data-lang="pl" type="button">
+                            <img src="images/flagPL.png" alt="Polski" class="language-dropdown__flag language-dropdown__flag--hidden js-flagPL">
+                        </li>
+                        <li class="language-dropdown__option" data-lang="en" type="button">
+                            <img src="images/flagUK.png" alt="English" class="language-dropdown__flag js-flagUK">
+                        </li>
+                    </ul>
                 <h1 class="header">Patryk Majchrzak</h1>
                 <img src="images/photo_main.jpg" 
                     alt="zdjęcie autora"
@@ -40,81 +49,129 @@
                     alt="zdjęcie autora"
                     class="head__photo js-photoFlowers head__photo--hidden">
                 <p class="section__paragraph">
-                    <button class="head__button js-nextImageButton">kolejne zdjęcie</button>
-                    <button class="head__button js-previousImageButton">poprzednie zdjęcie</button>
-                    <button class="head__button js-backgroundButton">zmień tło na <span
-                            class="js-shadeName">jasne</span></button>
+                    <button class="head__button js-nextImageButton">
+                        <span class="lang-pl">kolejne zdjęcie</span>
+                        <span class="lang-en">next photo</span>
+                    </button>
+                    <button class="head__button js-previousImageButton">
+                        <span class="lang-pl">poprzednie zdjęcie</span>
+                        <span class="lang-en">previous photo</span>
+                    </button>
+                    <button class="head__button js-backgroundButton">
+                        <span class="lang-pl">zmień tło na <span class="js-shadeName">jasne</span></span>
+                        <span class="lang-en">change background to <span class="js-shadeNameEn">light</span></span>
+                    </button>
                 </p>
             </header>
 
             <nav class="navigation js-navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__listItem"><a href="#o-mnie" class="link">O mnie</a></li>
-                    <li class="navigation__listItem"><a href="#moje-pasje" class="link">Moje pasje</a></li>
-                    <li class="navigation__listItem"><a href="#ulubione-utwory" class="link">Ulubione utwory</a></li>
-                    <li class="navigation__listItem"><a href="#doświadczenie-zawodowe" class="link">Doświadczenie
-                            zawodowe</a></li>
-                    <li class="navigation__listItem"><a href="#zwierzęta-domowe" class="link">Zwierzęta domowe</a></li>
-                    <li class="navigation__listItem"><a href="#kontakt" class="link">Kontakt</a></li>
+                    <li class="navigation__listItem">
+                        <a href="#o-mnie" class="link">
+                            <span class="lang-pl">O mnie</span>
+                            <span class="lang-en">About me</span>
+                        </a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a href="#moje-pasje" class="link">
+                            <span class="lang-pl">Moje pasje</span>
+                            <span class="lang-en">My passions</span>
+                        </a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a href="#ulubione-utwory" class="link">
+                            <span class="lang-pl">Ulubione utwory</span>
+                            <span class="lang-en">Favorite songs</span>
+                        </a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a href="#doświadczenie-zawodowe" class="link">
+                            <span class="lang-pl">Doświadczenie zawodowe</span>
+                            <span class="lang-en">Work experience</span>
+                        </a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a href="#zwierzęta-domowe" class="link">
+                            <span class="lang-pl">Zwierzęta domowe</span>
+                            <span class="lang-en">Pets</span>
+                        </a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a href="#kontakt" class="link">
+                            <span class="lang-pl">Kontakt</span>
+                            <span class="lang-en">Contact</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
             <main>
                 <section class="section js-section" id="o-mnie">
-                    <h2 class="header">O mnie</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">O mnie</span>
+                        <span class="lang-en">About me</span>
+                    </h2>
                     <p class="section__paragraph section__paragraph--centered section__paragraph--bold">
-                        Cześć! 🖐️
+                        <span class="lang-pl">Cześć! 🖐️</span>
+                        <span class="lang-en">Hi there! 🖐️</span>
                     </p>
-                    <p class="section__paragraph">Nazywam się <strong>Patryk Majchrzak</strong> i mam 29 lat. Przez około 6 lat
-                        pracowałem
-                        w
-                        <em>Infosysie</em> jako księgowy dla zagranicznych klientów (głównie dla filii angielskich,
-                        irlandzkich
-                        oraz
-                        kanadyjskich).
+                    <p class="section__paragraph">
+                        <span class="lang-pl">Nazywam się <strong>Patryk Majchrzak</strong> i mam 29 lat. Przez około 6 lat pracowałem w <em>Infosysie</em> jako księgowy dla zagranicznych klientów (głównie dla filii angielskich, irlandzkich oraz kanadyjskich).</span>
+                        <span class="lang-en">My name is <strong>Patryk Majchrzak</strong> and I am 29 years old. For about 6 years, I worked at <em>Infosys</em> as an accountant for foreign clients (mainly for British, Irish, and Canadian branches).</span>
                     </p>
                     <p class="section__paragraph section__paragraph--last">
-                        Postanowiłem spróbować swoich sił jako front-end developer, a w przyszłości być może
-                        full-stack
+                        <span class="lang-pl">Postanowiłem spróbować swoich sił jako front-end developer, a w przyszłości być może full-stack</span>
+                        <span class="lang-en">I decided to try my hand as a front-end developer, and in the future, perhaps as a full-stack developer.</span>
                     </p>
                 </section>
 
                 <section class="section js-section" id="moje-pasje">
-                    <h2 class="header">Moje pasje</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">Moje pasje</span>
+                        <span class="lang-en">My passions</span>
+                    </h2>
                     <p class="section__paragraph">
-                        W wolnych chwilach lubię rozwiązywać kakuro (krzyżówki liczbowe), słuchać muzyki (głównie
-                        <i>electro
-                            swingu</i>, aczkolwiek lubię też <i>pop</i> oraz <i>rock</i>). Moją ulubioną grupą jest
-                        <em>Caravan
-                            Palace</em>, zaś ich ulubioną płytą <em>Chronologic</em> z roku 2019.
+                        <span class="lang-pl">W wolnych chwilach lubię rozwiązywać kakuro (krzyżówki liczbowe), słuchać muzyki (głównie <i>electro swingu</i>, aczkolwiek lubię też <i>pop</i> oraz <i>rock</i>). Moją ulubioną grupą jest <em>Caravan Palace</em>, zaś ich ulubioną płytą <em>Chronologic</em> z roku 2019.</span>
+                        <span class="lang-en">In my free time, I enjoy solving kakuro (number puzzles), listening to music (mainly <i>electro swing</i>, although I also like <i>pop</i> and <i>rock</i>). My favorite band is <em>Caravan Palace</em>, and my favorite album of theirs is <em>Chronologic</em> from 2019.</span>
                     </p>
                     <p class="section__paragraph">
-                        Poza tym lubię grać w gry wideo oraz
-                        oglądać seriale na Netflixie oraz Disney+.
+                        <span class="lang-pl">Poza tym lubię grać w gry wideo oraz oglądać seriale na Netflixie oraz Disney+.</span>
+                        <span class="lang-en">Apart from that, I like playing video games and watching TV series on Netflix and Disney+.</span>
                     </p>
                     <p class="section__paragraph section__paragraph--last">
-                        Ponadto prowadzę kampanię <I>Dungeons & Dragons</I> ⚔️🐉 dla sześciu osób w stworzonym
-                        przeze mnie świecie (nie znam prawie w ogóle tzw. <i>lore</i> związanego z D&D, aczkolwiek
-                        podoba mi
-                        się
-                        mechanika, więc postanowiłem spróbować wymyślić coś własnego używając tych mechanik).
+                        <span class="lang-pl">Ponadto prowadzę kampanię <I>Dungeons & Dragons</I> ⚔️🐉 dla sześciu osób w stworzonym przeze mnie świecie (nie znam prawie w ogóle tzw. <i>lore</i> związanego z D&D, aczkolwiek podoba mi się mechanika, więc postanowiłem spróbować wymyślić coś własnego używając tych mechanik).</span>
+                        <span class="lang-en">Furthermore, I run a <I>Dungeons & Dragons</I> ⚔️🐉 campaign for six people in a world of my own creation (I barely know any official D&D <i>lore</i>, but I really like the mechanics, so I decided to try inventing something of my own using them).</span>
                     </p>
                 </section>
 
                 <section class="section js-section" id="ulubione-utwory">
-                    <h2 class="header">Ulubione utwory</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">Ulubione utwory</span>
+                        <span class="lang-en">Favorite songs</span>
+                    </h2>
                     <div class="section__tableContainer">
                         <p class="section__paragraph">
-                            Kliknij w ikonę Youtube w kolumnie link, aby odsłuchać utwór na YouTubie (link
-                            otwiera się w nowej
-                            karcie)
+                            <span class="lang-pl">Kliknij w ikonę Youtube w kolumnie link, aby odsłuchać utwór na YouTubie (link otwiera się w nowej karcie)</span>
+                            <span class="lang-en">Click on the YouTube icon in the link column to listen to the song on YouTube (the link opens in a new tab)</span>
                         </p>
                         <table class="table">
-                            <caption class="table__caption">Moje ulubione utwory</caption>
+                            <caption class="table__caption">
+                                <span class="lang-pl">Moje ulubione utwory</span>
+                                <span class="lang-en">My favorite songs</span>
+                            </caption>
                             <tr class="table__row">
-                                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
-                                <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
-                                <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                                <th class="table__cell table__cell--header" scope="col">
+                                    <span class="lang-pl">Tytuł</span>
+                                    <span class="lang-en">Title</span>
+                                </th>
+                                <th class="table__cell table__cell--header" scope="col">
+                                    <span class="lang-pl">Wykonawca</span>
+                                    <span class="lang-en">Artist</span>
+                                </th>
+                                <th class="table__cell table__cell--header" scope="col">
+                                    <span class="lang-pl">Rok wydania</span>
+                                    <span class="lang-en">Release year</span>
+                                </th>
                                 <th class="table__cell table__cell--header" scope="col">Link</th>
                             </tr>
                             <tr class="table__row">
@@ -213,35 +270,47 @@
 
 
                 <section class="section js-section" id="doświadczenie-zawodowe">
-                    <h2 class="header">Doświadczenie zawodowe</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">Doświadczenie zawodowe</span>
+                        <span class="lang-en">Work experience</span>
+                    </h2>
                     <ol class="section__list" type="I">
                         <li class="section__listItem">
                             09.2012-09.2012 - "Mazowiecka spółka Gazownictwa PGNiG"<br>
-                            pomoc w dziale księgowości
+                            <span class="lang-pl">pomoc w dziale księgowości</span>
+                            <span class="lang-en">assistant in the accounting department</span>
                         </li>
                         <li class="section__listItem">
                             04.2013-05.2013 - "Mazowiecka spółka Gazownictwa PGNiG"<br>
-                            pomoc w dziale księgowości
+                            <span class="lang-pl">pomoc w dziale księgowości</span>
+                            <span class="lang-en">assistant in the accounting department</span>
                         </li>
                         <li class="section__listItem">
-                            04.2017-09.2019 "Infosys Łódź"<br>
-                            starszy księgowy
+                            04.2017-09.2019 - "Infosys Łódź"<br>
+                            <span class="lang-pl">starszy księgowy</span>
+                            <span class="lang-en">senior accountant</span>
                         </li>
                         <li class="section__listItem">
                             09.2019-09.2020 - "Infosys Łódź"<br>
-                            księgowy specjalista
+                            <span class="lang-pl">księgowy specjalista</span>
+                            <span class="lang-en">accounting specialist</span>
                         </li>
                         <li class="section__listItem--last">
-                            09.2020-12.2023- "Infosys Łódź"<br>
-                            lider procesu
+                            09.2020-12.2023 - "Infosys Łódź"<br>
+                            <span class="lang-pl">lider procesu</span>
+                            <span class="lang-en">process leader</span>
                         </li>
                     </ol>
                 </section>
 
                 <section class="section section--centered js-section" id="zwierzęta-domowe">
-                    <h2 class="header">Zwierzęta domowe</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">Zwierzęta domowe</span>
+                        <span class="lang-en">Pets</span>
+                    </h2>
                     <p class="section__paragraph">
-                        Aktualnie maieszkam z kotką <b>"Kati"</b>
+                        <span class="lang-pl">Aktualnie mieszkam z kotką <b>"Kati"</b></span>
+                        <span class="lang-en">I currently live with a female cat named <b>"Kati"</b></span>
                     </p>
                     <p class="section__paragraph section__paragraph--last">
                         <img src="images/Kati.png" 
@@ -251,39 +320,47 @@
                 </section>
 
                 <section class="section section--centered js-section" id="kontakt">
-                    <h2 class="header">Kontakt</h2>
+                    <h2 class="header">
+                        <span class="lang-pl">Kontakt</span>
+                        <span class="lang-en">Contact</span>
+                    </h2>
                     <p class="section__paragraph section__paragraph--contact">
-                        tel: <a href="tel:+48510115109" class="link">+48 510-115-109</A>
+                        <span class="lang-pl">tel: </span><span class="lang-en">phone: </span><a href="tel:+48510115109" class="link">+48 510-115-109</A>
                     </p>
                     <p class="section__paragraph section__paragraph--contact">
                         mail: <a href="mailto:pmaj12345@gmail.com" class="link">pmaj12345@gmail.com</a>
                     </p>
                     <p class="section__paragraph">
                         <a href="Patryk_Majchrzak_CV_PL.pdf" download="CV_Patryk_Majchrzak" class="link link--CV">
-                            Pobierz CV (PL)
+                            <span class="lang-pl">Pobierz CV (PL)</span>
+                            <span class="lang-en">Download CV (PL)</span>
                         </a>
                         <a href="Patryk_Majchrzak_CV_EN.pdf" download="CV_Patryk_Majchrzak" class="link link--CV">
-                            Pobierz CV (EN)
+                            <span class="lang-pl">Pobierz CV (EN)</span>
+                            <span class="lang-en">Download CV (EN)</span>
                         </a>
                     </p>
                     <hr>
                     <p class="section__paragraph section__paragraph--socialMedia">
-                        sprawdź moje social media:<br>
+                        <span class="lang-pl">sprawdź moje social media:</span>
+                        <span class="lang-en">check out my social media:</span>
+                        <br>
                         <a href="https://www.facebook.com/patryk.majchrzak1/" rel="norefferer noopener" title="link do Facebooka" target="_blank">
                             <img src="images/Facebook_icon.png" alt="ikona Facebooka" width="50px" class="section__socialMediaIcon">
                         </a>
-                        <a href="https://www.linkedin.com/in/patryk-majchrzak-b468b9141/" rel="norefferer noopener" title="link do LinkedIn" target="_blank">
+                        <a href="https://www.linkedin.com/in/patryk.majchrzak-b468b9141/" rel="norefferer noopener" title="link do LinkedIn" target="_blank">
                             <img src="images/LinkedIn_icon.png" alt="ikona LinkedIn" width="50px" class="section__socialMediaIcon">
                         </a>
-                        <a href="https://github.com/Patryk-Majchrzak" rel="norefferer noopener" title="link do GitHuba">
-                            <img src="images/github-icon-seeklogo.svg" alt="ikona GitHub" width="50px" class="section__socialMediaIcon" target="_blank">
+                        <a href="https://github.com/Patryk-Majchrzak" rel="norefferer noopener" title="link do GitHuba" target="_blank">
+                            <img src="images/github-icon-seeklogo.svg" alt="ikona GitHub" width="50px" class="section__socialMediaIcon">
                         </a>
                     </p>
                 </section>
             </main>
         </div>
         <footer class="footer">
-            Stworzone przez Patryka Majchrzaka 2024 &#169;
+            <span class="lang-pl">Stworzone przez Patryka Majchrzaka 2024 ©</span>
+            <span class="lang-en">Created by Patryk Majchrzak 2024 ©</span>
         </footer>
 
 </body>
